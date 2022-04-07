@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Goals';
+  goals:string[];
+  constructor(){
+    this.goals =['Watch Finding nemo', 'Buy cookies', 'Get new phone case']
+  }
+  
 }
